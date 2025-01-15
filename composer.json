@@ -1,0 +1,23 @@
+{
+    "name": "bayazid2024/wedevs",
+    "version": "1.0.0",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "description": "weDevs Plugin",
+    "autoload": {
+        "psr-4": {
+            "WeDevs\\": "includes/"
+        },
+        "files": [
+            "includes/libraries/codestar-framework/codestar-framework.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "developerbayazid",
+            "email": "bayazid.freelancer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

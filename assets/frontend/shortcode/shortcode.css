@@ -1,0 +1,9 @@
+.columns-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    padding: 20px;
+    border: 1px solid red;
+}
