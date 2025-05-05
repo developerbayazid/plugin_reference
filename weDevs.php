@@ -48,6 +48,8 @@ final class weDevs {
         new WeDevs\Courses();
         new WeDevs\Shortcode();
         new WeDevs\Admin_Settings();
+        new WeDevs\Admin_Notices();
+        new WeDevs\Rewrite_Rules();
     }
 
 }
